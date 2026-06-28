@@ -86,3 +86,35 @@ color:#666;
     margin:15px 0 20px;
     font-size:15px;
 }
+
+.cards{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:15px;
+    margin:30px 0;
+}
+
+.card{
+    background:#151515;
+    border:1px solid #00c853;
+    border-radius:12px;
+    padding:18px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 20px rgba(0,200,83,.30);
+}
+
+.card h3{
+    color:#00c853;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#d9d9d9;
+    font-size:15px;
+    line-height:1.5;
+}
