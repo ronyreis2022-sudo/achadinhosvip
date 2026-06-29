@@ -119,24 +119,3 @@ color:#666;
     margin-top:-8px;
     margin-bottom:20px;
 }
-
-.marcas{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:30px;
-    margin:25px 0 35px;
-    flex-wrap:wrap;
-}
-
-.marcas img{
-    height:80px;
-    width:auto;
-    opacity:.95;
-    transition:.3s;
-}
-
-.marcas img:hover{
-    opacity:1;
-    transform:scale(1.08);
-}
